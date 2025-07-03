@@ -1,0 +1,42 @@
+# Makeup Recommendation System – Planning Notes
+
+## Goal
+Build a system that recommends suitable makeup products (e.g., foundation, concealer) based on a user's skin tone and undertone. The system will use machine learning to classify undertones and match compatible product tones.
+
+
+## Data Input
+User input will be collected via a quiz to determine undertones (warm, cool, neutral).
+
+Sample quiz questions:
+- What color are the veins on your wrist?
+- How does your skin react to sun exposure?
+- What type of jewelry suits you better – gold or silver?
+- What’s your skin’s surface tone? (fair, medium, deep)(also planning to widen this range)
+
+## Features
+
+### In Progress
+- Undertone classification using NumPy and Pandas
+- Quiz-based user input flow
+
+### Planned
+- Product mapping via mock/public APIs (based on Sephora or other)
+- Real-time facial analysis using OpenCV
+- User results storage and filtering using Firebase
+
+
+## Tech Stack to use
+
+- Python (core)
+- NumPy, Pandas (data analysis)
+- OpenCV (planned – facial tone detection)
+- Firebase (planned – backend/database)
+- Product APIs (planned – recommendation matching)
+- (Optional) HTML/CSS for web UI if deployed
+
+
+## Future Ideas
+
+- Deploy as a web app using Flask or Streamlit
+- Add camera input for live skin tone detection
+- Create a feedback/rating system for user experience
